@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Formulaire</title>
+</head>
+<body>
+    <p><h2>Formulaire</h2></p>
+    <form method="post">
+       <fieldset>
+        <p>
+            <label>Votre prenom :</label>
+            <input type="text" name="prenom" id="prenom" />
+        </p>
+
+        <p>
+            <label>Votre nom :</label>
+            <input type="text" name="nom" id="nom" />
+        </p>
+
+        <p>
+            <label>Votre âge :</label>
+            <input type="number" />
+        </p>
+
+        <p>Votre sexe :
+            <input type="checkbox" name="homme" id="homme"/><label>homme</label>
+            <input type="checkbox" name="femme" id="femme" /><label>femme</label>
+        </p>
+
+        <p>
+            <label>Votre Adresse Mail :</label>
+            <input type="email" />
+        </p>
+
+        <p>
+            <label>Votre adresse postale</label>
+            <input type="text" name="adresse" id="adress" />
+        </p>
+
+        <p>
+            <label>Code postal</label>
+            <input type="tel" name="code postal" id="code postal"maxlength="5" />
+        </p>
+
+        <p>
+            <label>Métier exercé</label>
+              <select name="métier" id="métier">
+                  <option value="plombier">plombier</option>
+                  <option value="informaticien">informaticien</option>
+                  <option value="pilote">pilote</option>
+                  <option value="élétricien">élétricien</option>
+                  <option value="policier">polocier</option>
+                  <option value="agent de securiter">agent de securiter</option>
+                  <option value="moniteur de skie">moniteur de skie</option>
+              </select>
+            
+              <label>autre metier :</label>
+              <input type="text" name="autre métier" id="autre métier" maxlength="15" />
+        </p>
+
+        <p> 
+            <label>Nationalité</label>
+               <select name="nationalité" id="nationalié">
+                   <option value="Français">Français</option>
+                   <option value="italien">italien</option>
+                   <option value="belge">Belge</option>
+                   <option value="anglaise">anglaise</option>
+                   <option value="allemand">allemand</option>
+                   <option value="espagnol">espagnol</option>
+               </select>
+               
+               <label>autre nationalité :</label>
+               <input type="text" name="autre nationalité" id="autre nationalité" maxlength="15" />
+        </p>
+        
+        <p>
+            <label>date de naissance</label>
+            <input type="date"/>
+        </p>
+
+        <p>
+            <label>pays de naissance</label>
+            <input type="text" name="pays" id="pays" maxlength="15">
+        </p>
+
+        <p>
+            <label>Numéro de securité social</label>
+            <input type="text" name="numero de securité social" id="numero de securité social" minlength="13" maxlength="15" />
+
+        </p>
+
+        <p>
+            <label>Numéro du passeport</label>
+            <input type="text" name="Numéro du passeport" id="Numéro du passeport" maxlength="9" />
+        </p>
+        
+        <p>
+            <label>date de delivrance du passeport</label>
+            <input type="date"/>
+        </p>
+
+        <p>
+            <label>date de validité du passeport</label>
+            <input type="date"/>
+        </p>
+
+    </fieldset>
+
+        <input type="reset" value="Réinitialiser"/>
+        <input type="submit" value="Envoyer" />
+
+
+               
+
+    </form>
+</body>
+</html>
